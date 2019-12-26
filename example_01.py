@@ -21,7 +21,7 @@ def main():
     cur.execute("CREATE TABLE test (id SERIAL PRIMARY KEY, name VARCHAR, email VARCHAR);")
 
     # Inserts a single row into the table
-    cur.execute("INSERT INTO test (name, email) VALUES (%s, %s)", ("Tony", "tony@example.com"))
+    cur.execute("INSERT INTO test (name, email) VALUES (%s, %s);", ("Tony", "tony@example.com"))
 
     # Executes a select on the current table
     cur.execute("SELECT * FROM test;")

@@ -4,14 +4,28 @@ Database labs Python Example
 This repository contains example code for connecting to a 
 [databaselabs.io](https://www.databaselabs.io/) database.
 
+These examples are intended for beginners. 
+
 This example uses the [psycopg2](http://initd.org/psycopg/) library.
 
 These examples try to use [12 factor app guidelines](https://12factor.net/)
 
+Requirements
+------------
+
+python 3.5 or later.
+
 Setup
 -----
 
-[comment]: # (TODO add git clone instructions)
+Use the git tool to get the source code
+
+```
+git clone https://github.com/databaselabs/dbl-python-example.git
+```
+
+If you don't want to use git you can download the files as a
+[ZIP](https://github.com/databaselabs/dbl-python-example/archive/master.zip).
 
 ### using pipenv
 
